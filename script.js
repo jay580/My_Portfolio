@@ -1,0 +1,9 @@
+// Mouse Event
+document.addEventListener("mousemove", (e) => {
+    console.log(`Mouse moved to (${e.clientX}, ${e.clientY})`);
+});
+
+// Keyboard Event
+document.addEventListener("keydown", (e) => {
+    console.log(`Key pressed: ${e.key}`);
+});
